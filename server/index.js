@@ -9,6 +9,9 @@ const cors = require("cors");
 app.use(cors());
 //define port
 const PORT = 3002
+const router = require("./Routes/patient-routes");
+//localhost:3002/patient
+app.use("/patient", router)
 //establish link to mongoDB Atlas Database
 mongoose.connect("mongodb+srv://Jose-V:Josevargas123144!@cluster0.0pptu4i.mongodb.net/Hospital?retryWrites=true&w=majority"
 ).then(() => console.log("Connected To Database"))
