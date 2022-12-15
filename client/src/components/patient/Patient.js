@@ -19,6 +19,7 @@ const Patient = (props) => {
       <h3>D.O.B:{dob}</h3>
       <p>Insurance:{insurance}</p>
       <h3>Patient ID: {patient_id}</h3>
+      <p>Discharged: {discharged}</p>
       <Button LinkComponent={Link} to={`/patient/${_id}`} sx={{ mt: "auto" }}>
         Update Patient Information
       </Button>

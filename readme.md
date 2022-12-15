@@ -42,15 +42,45 @@ FRONT END:
 
 Install frontend dependencies:
 
-create-react-app=
+create-react-app= an outline to have your coding onto a website
 
 command:
 npx create-react-app .
  
+react-router-dom@6= is a library for react
+
+command:
 npm install react-router-dom@6
 
+Axios= it is used to make http requests from node
+
+command:
 npm install axios
 
+@mui/material @emotion/react @emotion/styled= Addtional library for react
+
+command:
 npm install @mui/material @emotion/react @emotion/styled
+
+@mui/icons-material @mui/material @emotion/styled @emotion/react= Addtional library for react
  
+command:
 npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
+
+install and start react server, clear all default react
+
+HomePage
+placed button that will take you to home page
+![HomePage](Screenshot%202022-12-15%20104837.png)
+
+AddPatient Page
+page for user to add addtional patients 
+![AddPatient Page](Screenshot%202022-12-15%20105002.png)
+
+PatientInformation Page
+page that displays patient information
+![PatientInformation Page](Screenshot%202022-12-15%20105106.png)
+
+AboutMernHealth Page
+page that displays information about the webpage
+![AboutMernHealth Page](Screenshot%202022-12-15%20105202.png)
