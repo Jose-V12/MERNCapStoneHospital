@@ -41,3 +41,16 @@ usage of delete
 FRONT END:
 
 Install frontend dependencies:
+
+create-react-app=
+
+command:
+npx create-react-app .
+ 
+npm install react-router-dom@6
+
+npm install axios
+
+npm install @mui/material @emotion/react @emotion/styled
+ 
+npm install @mui/icons-material @mui/material @emotion/styled @emotion/react
